@@ -54,5 +54,4 @@ function drawLine(x1,y1,x2,y2)
     g.moveTo(x1,y1);
     g.lineTo(x2,y2);
     g.stroke();
-
 }
