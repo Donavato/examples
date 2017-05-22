@@ -47,3 +47,12 @@ function drawFunction(expression,xMin,xMax,xSteps,yMin,yMax,ySteps,width,height)
     g.stroke();
 }
 
+function drawLine(x1,y1,x2,y2)
+{
+    g.strokeStyle = '#000';
+    g.beginPath();
+    g.moveTo(x1,y1);
+    g.lineTo(x2,y2);
+    g.stroke();
+
+}
