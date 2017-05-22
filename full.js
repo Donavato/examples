@@ -54,4 +54,9 @@ function drawLine(x1,y1,x2,y2)
     g.moveTo(x1,y1);
     g.lineTo(x2,y2);
     g.stroke();
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> c62058c72e3b294170b9dc0b2273b604db07ead6
